@@ -1,0 +1,12 @@
+<div id="contact-form">
+  <%= render 'contact_form' %>
+</div>
+<script>
+  $(function() {
+	console.log('raghu')
+	$("#set-locale").on('change', function() {
+		$.post('/locale', {locale: $("#set-locale").val()}, null, "script");
+		return false;
+	});
+  });
+</script>

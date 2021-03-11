@@ -1,0 +1,4 @@
+pt:
+  hello: "Hello world"
+  first_name_label: 'TELL US YOUR NAME - portugal'
+  validate_first_name: 'Type first name'
