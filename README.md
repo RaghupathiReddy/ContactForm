@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.6.6
+* Rails Version: 6.0.3.3
 
-Things you may want to cover:
+To install the gems defined in the gemfile. please run  `bundle install`
+To run the migrations, run `rake db:create db:migrate`
+Run the server with the command, `rails s`
 
-* Ruby version
+In order to send the mails, please add the smtp configurations in development.rb 
 
-* System dependencies
+![image](https://user-images.githubusercontent.com/31825416/110789303-ba2a3b80-8295-11eb-9e7d-bc113c04ae28.png)
 
-* Configuration
+To run the specs, run the migrations in the test environment by running the follow command
+`rake db:migrat RAILS_ENV=TEST`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the specs,
+`rspec <file_path>`
