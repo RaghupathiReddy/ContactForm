@@ -5,7 +5,7 @@
 
 To install the gems defined in the gemfile. please run  `bundle install`
 To run the migrations, run `rake db:create db:migrate`
-Run the server with the command, `rails s`
+Run the server with the command, `rails s` 
 
 In order to send the mails, please add the smtp configurations in development.rb 
 
